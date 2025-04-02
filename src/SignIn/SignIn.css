@@ -1,0 +1,107 @@
+.main-continer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 85vh;
+}
+.Contact {
+  display: flex;
+  justify-content: flex-end;
+  margin: 9px;
+}
+
+.Contact button {
+  cursor: pointer;
+  padding: 10px 20px;
+  background: none;
+  color: rgb(199, 199, 199);
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.Contact button:hover {
+  color: white;
+}
+img {
+  width: 10rem;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 40rem;
+  height: 43rem;
+  border-radius: 20px;
+  background-color: #151515;
+}
+.logo-signintxt {
+  text-align: center;
+}
+
+.input-container {
+  margin-left: 115px;
+  font-size: 30px;
+  margin-top: -55px;
+}
+.email-password {
+  opacity: 10%;
+  margin-bottom: 5px;
+}
+.Error-message {
+  font-size: 15px;
+  font-weight: bold;
+  color: rgba(153, 36, 36, 0.815);
+}
+.F-password {
+  color: #1e81b0;
+  text-decoration: none;
+  font-size: 20px;
+  margin-top: 12px;
+}
+.F-password:hover {
+  color: #48aad8;
+}
+input {
+  width: 25rem;
+  height: 3rem;
+  background-color: #2f2e2e;
+  border-radius: 8px;
+  color: white;
+  font-size: 1.5rem;
+  border: 2px solid #2f2e2e;
+  outline: none;
+}
+input:focus {
+  border-color: #ffffff;
+}
+.login-btn {
+  border-radius: 10px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 25rem;
+  height: 3rem;
+  color: white;
+  background-color: #3c0000;
+  margin-top: 20px;
+  font-size: 25px;
+}
+.login-btn:hover {
+  cursor: pointer;
+  background-color: #4b0c0c;
+}
+.signup {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  gap: 10px;
+}
+.signup a {
+  text-decoration: none;
+  color: #1e81b0;
+}
+.signup a:hover {
+  color: #48aad8;
+}

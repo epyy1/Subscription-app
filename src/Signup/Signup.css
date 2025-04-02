@@ -1,0 +1,18 @@
+.signupbtn {
+  border-radius: 10px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 25rem;
+  height: 3rem;
+  color: white;
+  background-color: #3c0000;
+  margin-top: 50px;
+  font-size: 25px;
+}
+.signupbtn:hover {
+  cursor: pointer;
+  background-color: #4b0c0c;
+}
